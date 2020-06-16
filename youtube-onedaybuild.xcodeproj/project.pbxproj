@@ -13,9 +13,9 @@
 		E9691A862495BE180081EAAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9691A842495BE180081EAAB /* Main.storyboard */; };
 		E9691A882495BE1C0081EAAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9691A872495BE1C0081EAAB /* Assets.xcassets */; };
 		E9691A8B2495BE1C0081EAAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9691A892495BE1C0081EAAB /* LaunchScreen.storyboard */; };
-		E9691A932495CB460081EAAB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9691A922495CB460081EAAB /* Constants.swift */; };
 		E9691A952495CDAA0081EAAB /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9691A942495CDAA0081EAAB /* Video.swift */; };
 		E9691A972495CDE80081EAAB /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9691A962495CDE80081EAAB /* Model.swift */; };
+		E9691A9B24994F620081EAAB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9691A9A24994F620081EAAB /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +27,9 @@
 		E9691A872495BE1C0081EAAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9691A8A2495BE1C0081EAAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9691A8C2495BE1C0081EAAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E9691A922495CB460081EAAB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E9691A942495CDAA0081EAAB /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		E9691A962495CDE80081EAAB /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		E9691A9A24994F620081EAAB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,9 +69,9 @@
 				E9691A872495BE1C0081EAAB /* Assets.xcassets */,
 				E9691A892495BE1C0081EAAB /* LaunchScreen.storyboard */,
 				E9691A8C2495BE1C0081EAAB /* Info.plist */,
-				E9691A922495CB460081EAAB /* Constants.swift */,
 				E9691A942495CDAA0081EAAB /* Video.swift */,
 				E9691A962495CDE80081EAAB /* Model.swift */,
+				E9691A9A24994F620081EAAB /* Constants.swift */,
 			);
 			path = "youtube-onedaybuild";
 			sourceTree = "<group>";
@@ -151,8 +151,8 @@
 				E9691A7F2495BE180081EAAB /* AppDelegate.swift in Sources */,
 				E9691A812495BE180081EAAB /* SceneDelegate.swift in Sources */,
 				E9691A972495CDE80081EAAB /* Model.swift in Sources */,
-				E9691A932495CB460081EAAB /* Constants.swift in Sources */,
 				E9691A952495CDAA0081EAAB /* Video.swift in Sources */,
+				E9691A9B24994F620081EAAB /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
