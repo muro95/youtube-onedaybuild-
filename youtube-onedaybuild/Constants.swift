@@ -10,10 +10,12 @@ import Foundation
 
 struct Constants {
     
-    static var API_KEY = ProcessInfo.processInfo.environment["API_KEY"]
-    //static var API_KEY = ""
+//    static var API_KEY = ProcessInfo.processInfo.environment["API_KEY"]
+    static var API_KEY = ""
     
-    //switch to enviroment variable 
+    //switch to enviroment variable
     static var PLAYLIST_ID = "PLjNnuNwnTfTYQPj6ipUVXTXr0vaDHGalB"
     static var API_URL = "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=\(Constants.PLAYLIST_ID)&key=\(Constants.API_KEY)"
+    
+    static var VIDEOCELL_ID = "VideoCell"
 }
